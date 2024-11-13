@@ -113,6 +113,14 @@ Farei alguma consultas no banco de dados
 
 ![image](https://github.com/user-attachments/assets/4afc80cf-17e7-4847-a5ad-2f6a29668cab)
 
+-m.origem: Seleciona a coluna origem da tabela marcas (usando o alias m), que indica o país de origem da marca.<br>
+-COUNT(i.id) AS total_modelos: Conta quantos registros (i.id) existem na tabela iventario para cada origem de marca e nomeia essa contagem como total_modelos. <br>
+-Faz um JOIN  entre a tabela marcas (alias m) e a tabela iventario (alias i).<br>
+-Agrupa os resultados pela coluna origem da tabela marcas. Isso significa que a contagem COUNT(i.id) será calculada para cada país de origem de forma separada, resultando no total de modelos associados a cada origem.<br>
+
+
+
+
 E esse foi meu projeto banco de dados "MemoAuto" ! Obrigado por chegar até aqui e continuarei com projetos e aumentando meu conhecimento.
 
 
