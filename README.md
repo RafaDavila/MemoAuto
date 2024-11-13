@@ -27,6 +27,14 @@ CRIANDO A ID NOT NULL, para nunca poder ser vazio, e o AUTO_INCREMENT para autom
 1)marcas_id: Coluna de FOREIGN KEY que se relaciona com a tabela marcas. O valor nesta coluna deve existir na coluna marcas_id da tabela marcas.<br>
 2)FOREIGN KEY (marcas_id) REFERENCES marcas(marcas_id): Define a coluna marcas_id como uma chave estrangeira que referencia a coluna marcas_id da tabela marcas. Isso cria um vínculo entre iventario e marcas, garantindo que qualquer valor em marcas_id na tabela iventario já exista na tabela marcas.
 
+<h4>Criando a tabela de clientes</h4>
+
+![image](https://github.com/user-attachments/assets/6ae513b0-04d1-463b-aeab-ab4d3d231e11)
+
+Mesmo processo das outras tabelas.
+
+
+
 
 
 
